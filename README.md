@@ -2,11 +2,15 @@
 
 Analyzes the interactions that users have with articles on the [IBM Watson Studio platform](https://www.ibm.com/cloud/watson-studio), and makes recommendations to them about new articles they might like. 
 
+![Example](https://video.udacity-data.com/topher/2018/September/5ba02d6d_screen-shot-2018-09-17-at-3.40.30-pm/screen-shot-2018-09-17-at-3.40.30-pm.png)
+
 ## Features
 
 ### 1. Exploratory Data Analysis
 
 Explore the data to understand the number of users, articles, and information about the interactions that take place. Visual and descriptive statistics to understand the interactions between users and articles in the dataset.
+
+![Distribution](img/distribution.png)
 
 
 ### 2. Rank Based Recommendations
@@ -46,7 +50,9 @@ Given the amount of content available for each article, there are a number of di
 ### 5. Matrix Factorization
 
 A machine learning approach to building recommendations. Using the user-item interactions, build out a matrix decomposition. 
-Using the decomposition, ywe get an idea of how well you can predict new articles an individual might interact with. 
+Using the decomposition, we get an idea of how well you can predict new articles an individual might interact with. 
+
+![Accuracy](img/accuracy.png)
 
 ### 6. Extras & Concluding
 
